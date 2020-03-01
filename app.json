@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "starnews",
+    "slug": "starnews",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/662-6621373_green-star-news-ng-navy-football-logo-hd_192x192.png",
+    "splash": {
+      "image": "./assets/whitesplash_1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.starnews.starnews",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.starnews.starnews",
+      "versionCode": 1
+    }
+  }
+}
